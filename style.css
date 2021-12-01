@@ -264,7 +264,7 @@ body{
 .right-hand {
     position: absolute;
     top: 15px;
-    right: 5px;
+    right: 50px;
     animation: left-hand 3s ease-in-out infinite;
 }
 .hand-line{
