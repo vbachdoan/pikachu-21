@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 300px;
 }
 #wrap-body{
     width: 300px;
