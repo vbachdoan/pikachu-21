@@ -249,6 +249,8 @@ body{
 }
 .wrap-hand{
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .hand{
     height: 67px;
