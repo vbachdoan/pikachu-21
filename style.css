@@ -8,7 +8,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
 }
 #wrap-body{
     width: 300px;
@@ -17,7 +16,6 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    transform: scale(0.75);
 }
 #head {
     width: 85px;
@@ -259,14 +257,14 @@ body{
     top: 0px;
     left: 0px;
 }
-.left-hand{
-    top: 150px;
-    right: 111px;
+.left-hand {
+    top: 19px;
+    right: -5px;
     transform: rotateY(-180deg);
 }
 .right-hand {
-    top: 140px;
-    left: 130px;
+    top: 15px;
+    left: 9px;
     animation: left-hand 3s ease-in-out infinite;
 }
 .hand-line{
@@ -280,8 +278,8 @@ body{
     position: absolute;
     height: 180px;
     fill: rgb(255, 196, 0);
-    top: 0px;
-    left: 169px;
+    top: -100px;
+    left: 57px;
     z-index: -100;
 }
 
@@ -300,5 +298,11 @@ body{
     }
     50%{
         transform: rotateZ(150deg);
+    }
+}
+
+@media screen and ( max-width : 305px ) {
+    #wrap-body{
+        min-width: 300px;
     }
 }
