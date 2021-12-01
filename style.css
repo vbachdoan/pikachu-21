@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    min-width: 400px;
+    min-width: 300px;
 }
 #head {
     width: 85px;
