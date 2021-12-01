@@ -256,11 +256,13 @@ body{
     left: 0px;
 }
 .left-hand {
+    position: absolute;
     top: 19px;
     right: -5px;
     transform: rotateY(-180deg);
 }
 .right-hand {
+    position: absolute;
     top: 15px;
     right: 5px;
     animation: left-hand 3s ease-in-out infinite;
