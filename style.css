@@ -262,7 +262,7 @@ body{
 }
 .right-hand {
     top: 15px;
-    left: 9px;
+    right: 5px;
     animation: left-hand 3s ease-in-out infinite;
 }
 .hand-line{
