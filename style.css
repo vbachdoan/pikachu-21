@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+    transform: scale(0.75);
 }
 #head {
     width: 85px;
@@ -299,10 +300,5 @@ body{
     }
     50%{
         transform: rotateZ(150deg);
-    }
-}
-@media screen and ( max-width : 305px ) {
-    #wrap-body{
-        transform:scale(0.8);
     }
 }
