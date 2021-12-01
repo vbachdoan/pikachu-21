@@ -301,3 +301,8 @@ body{
         transform: rotateZ(150deg);
     }
 }
+@media screen and ( max-width : 305px ) {
+    #wrap-body{
+        transform:scale(0.8);
+    }
+}
