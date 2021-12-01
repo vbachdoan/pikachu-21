@@ -192,7 +192,6 @@ body{
     width: 53px;
     height: 60px;
     border-radius: 40px;
-    position: absolute;
     top: 165px;
     background-color: rgb(255, 196, 0);
     z-index: -2;
@@ -201,10 +200,12 @@ body{
 .left-leg{
     left: 92px;
     transform: rotateZ(45deg);
+    position: absolute;
 }
 .right-leg{
     right: 92px;
     transform: rotateZ(-45deg);
+    position: absolute;
 }
 .chest {
     width: 40px;
